@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+  int i, j, k,num;
+  scanf("%d",&num);
+  for(i=1;i<=num;i++)
+  {
+    k = i;
+    for(j=1;j<=num;j++)
+    {
+      if(k <= num)
+      {
+        printf("%d",k);
+      }
+      else
+      {
+        printf("%d",num);
+      }
+      k++;
+    }
+  printf("\n");
+  }
+  return 0;
+}
+
+
+
+ int main()
+{
+    int r,c,row;
+    scanf("%d",&row);
+    for (r=1;r<=row;r++)
+    { for (c=1;c<=r;c++)
+    {
+    printf("%d",r);
+    }
+    printf("\n");
+    }
+
+    return 0;
+}
